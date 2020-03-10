@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   # end
   namespace :api do
     get "/welcomes" => "welcomes#hello"
+    get "/about"    => "welcomes#about"
   end
 end
 
